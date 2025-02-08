@@ -4,7 +4,7 @@ Esta aplicacion permite gestionar las profesiones de un grupo de personas
 
 ## Requerimientos
 
-Esta aplicacion requiere la version de node 22 o superior.
+Esta aplicacion requiere la version de **node 22** o superior.
 
 ## Para ejecutar
 
@@ -35,3 +35,10 @@ personac3.eliminarProfesion(2)
 console.log("----Imprimir todas las profesiones-----")
 personac3.imprimirProfesiones()
 ```
+
+### Tabla de versiones
+
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
