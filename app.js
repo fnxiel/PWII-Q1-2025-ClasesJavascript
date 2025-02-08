@@ -22,10 +22,27 @@ console.log(personac, personac2, personac3)
 
 personac3.presentarse(personac.nombreCompleto)
 
-let profesionSastre = new Profesion("Sastre", "Fabricar ropa")
+let profesionSastre = new Profesion("Sastre", "Fabricar ropa", 1)
+let profesionCocinero = new Profesion("Cocinero", "Cocinar comida", 2)
+
 personac3.agregarProfesion(profesionSastre)
+personac3.agregarProfesion(profesionCocinero)
 
 console.log(personac.nombreAlrevez)
+
+console.log("-----Buscar profesion 2----")
+personac3.buscarProfesion(2)
+console.log("----Imprimir todas las profesiones-----")
+personac3.imprimirProfesiones()
+let profesionMusico= new Profesion("Musico", "Tocar musica", 3)
+console.log("----Agregar nueva profesion-----")
+personac3.agregarProfesion(profesionMusico)
+console.log("----Modificar la profesion 3-----")
+personac3.modificarProfesion(3, "Ejecutar musica")
+console.log("----Eliminiar la profesion 2-----")
+personac3.eliminarProfesion(2)
+console.log("----Imprimir todas las profesiones-----")
+personac3.imprimirProfesiones()
 
 //Carlos = Alumnos
     //Curso
