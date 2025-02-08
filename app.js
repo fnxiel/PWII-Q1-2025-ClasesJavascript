@@ -1,5 +1,6 @@
 const Persona = require('./models/Persona')
 const Profesion = require('./models/Profesion')
+const Empleado = require('./models/Empleado')
 
 /// Con clases
 let personac = new Persona()
@@ -44,6 +45,13 @@ personac3.eliminarProfesion(2)
 console.log("----Imprimir todas las profesiones-----")
 personac3.imprimirProfesiones()
 
+const empleado = new Empleado()
+
+empleado.agregarProfesion(profesionCocinero)
+empleado.nombre = "Darth Vader"
+empleado.saludar()
+empleado.trabajar(10)
+empleado.trabajar(15)
 //Carlos = Alumnos
     //Curso
     //Matricula
